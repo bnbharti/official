@@ -1,9 +1,0 @@
-		 
-		 Key Concepts of the Open/Closed Principle
-		 
-Open for Extension: 
-		This means that the behavior of a module can be extended to accommodate new requirements. 
-For example, you can add new classes or methods that enhance the functionality of existing code.
-Closed for Modification: 
-		Existing code should not be changed when new functionality is added. 
-This helps ensure that previously tested and stable code remains intact, reducing the likelihood of introducing new defects.
