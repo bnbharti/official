@@ -1,9 +1,9 @@
-package com.bharti.app.srp.service;
+package srp.com.bharti.app.service;
 
 import java.util.UUID;
 
-import com.bharti.app.srp.model.Book;
-import com.bharti.app.srp.model.Member;
+import srp.com.bharti.app.model.Book;
+import srp.com.bharti.app.model.Member;
 
 public class BookLoanService {
 	public void bookLoanMemberDetails(Member member, Book book) {

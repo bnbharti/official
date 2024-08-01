@@ -1,9 +1,9 @@
-package com.bharti.app.srp.service;
+package srp.com.bharti.app.service;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.bharti.app.srp.model.Book;
+import srp.com.bharti.app.model.Book;
 
 public class SampleData {
 	public List<Book> getBooks() {

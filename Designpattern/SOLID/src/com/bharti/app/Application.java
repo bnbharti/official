@@ -2,9 +2,9 @@ package com.bharti.app;
 
 import java.util.UUID;
 
-import com.bharti.app.srp.model.Book;
-import com.bharti.app.srp.model.Member;
-import com.bharti.app.srp.service.BookLoanService;
+import srp.com.bharti.app.model.Book;
+import srp.com.bharti.app.model.Member;
+import srp.com.bharti.app.service.BookLoanService;
 
 public class Application {
 

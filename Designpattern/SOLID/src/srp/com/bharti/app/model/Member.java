@@ -1,4 +1,4 @@
-package com.bharti.app.srp.model;
+package srp.com.bharti.app.model;
 
 import java.util.UUID;
 
