@@ -1,0 +1,14 @@
+SRP:-
+Single Responsibility Principle (SRP)
+  It asserts that a class should have only one reason to change, meaning it should have only one responsibility or job. 
+ This principle helps create more maintainable, understandable, and flexible code.
+
+Benefits of SRP
+Improved Readability:
+ 		Classes with a single responsibility are easier to read and understand, as they focus on one specific task.
+Easier Testing:
+		 Isolated responsibilities make unit testing simpler, as each class can be tested independently.
+Reduced Complexity:
+		 By breaking down complex classes into simpler ones, the overall complexity of the system is reduced.
+Enhanced Flexibility:
+		 Changes in one part of the system are less likely to affect other parts, making the system more adaptable to change.
