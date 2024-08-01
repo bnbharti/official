@@ -1,0 +1,5 @@
+The principle states that objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program. In other words, if class S is a subclass of class T, then an object of type T should be able to be replaced with an object of type S without altering the desirable properties of the program, such as correctness.
+Key Concepts of Liskov Substitution Principle
+Substitutability: If S is a subtype of T, then objects of type T should be able to be replaced with objects of type S without causing errors or changing the expected behavior of the program.
+Behavioral Compatibility: The subclass must honor the behavior and expectations set by the superclass. This includes adhering to the same method signatures, preconditions, postconditions, and invariants.
+Contract Adherence: The subclass should not strengthen preconditions or weaken postconditions. This means that the subclass can allow broader input parameters, but it cannot impose stricter conditions than those defined in the superclass.

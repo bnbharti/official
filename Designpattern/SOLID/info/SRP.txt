@@ -1,0 +1,17 @@
+It asserts that a class should have only one reason to change, meaning it should have only one responsibility or job.
+ This principle helps create more maintainable, understandable, and flexible code.
+ 
+Key Concepts of SRP
+Single Responsibility:	
+			 A class should encapsulate only one functionality or responsibility. 
+This means that if a class has multiple responsibilities, it becomes more complex and harder to maintain.
+Reasons to Change: 
+			If a class has more than one responsibility, it may have multiple reasons to change.
+ For example, if the class needs to be modified for one responsibility, 
+ it could inadvertently affect another, leading to potential bugs and increased difficulty in testing.
+Cohesion: 
+			SRP promotes high cohesion within classes. A cohesive class focuses on a single task,
+ making it easier to understand and use. High cohesion often leads to better organized and more reliable code.
+Maintainability:
+ 			By adhering to SRP, developers can modify or extend a class without impacting unrelated functionality. 
+This makes the codebase easier to maintain over time.

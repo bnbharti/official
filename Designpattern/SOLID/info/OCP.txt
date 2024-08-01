@@ -1,0 +1,10 @@
+This means that the behavior of a module can be extended without changing its existing code,
+ promoting better maintainability and reducing the risk of introducing bugs.
+Key Aspects of OCP
+
+Open for Extension: 
+		New functionality can be added to a system without altering existing code. 
+This is typically achieved through mechanisms like inheritance or interfaces, allowing developers to introduce new classes or methods that extend the behavior of existing ones.
+Closed for Modification: 
+		Existing code should remain unchanged when new features are added.
+ This helps to preserve the stability and reliability of the system, as modifications to existing code can lead to unintended side effects.
