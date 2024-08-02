@@ -1,0 +1,12 @@
+Key Changes
+Volatile Keyword:
+ 		The singleton variable is declared as volatile. 
+ 		This ensures that any thread that accesses the singleton
+ 		 variable will see the most up-to-date value.
+Synchronizing on the Class: 
+		The synchronization block now synchronizes on Singleton.class 
+		instead of singleton. This prevents the NullPointerException and 
+		ensures that all threads synchronize on the same monitor.
+Private Constructor: 
+		The constructor is private to prevent instantiation 
+		from outside the class.

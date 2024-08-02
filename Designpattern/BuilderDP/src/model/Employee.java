@@ -23,7 +23,7 @@ public class Employee {
 		return new Builder();
 	}
 
-	public static class Builder {
+	public static class Builder {// task -> take inputs, validate inputs and create Student object
 		private int id;
 		private String name;
 		private double salary;
