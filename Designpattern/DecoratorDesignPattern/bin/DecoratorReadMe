@@ -27,7 +27,7 @@ Provides a flexible alternative to subclassing for extending functionality.
 Follows the Open/Closed Principle.
 Promotes code reuse and composition over inheritance.
 
-Disadvantages
+Disadvantages:-
 
 Can lead to a large number of small classes that can make the code harder to understand.
 The order of decorators can affect the final behavior of the object.
