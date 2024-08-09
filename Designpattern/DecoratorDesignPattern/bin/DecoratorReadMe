@@ -1,0 +1,33 @@
+The Decorator pattern allows behavior to be added to an individual object, dynamically,
+ without affecting the behavior of other objects from the same class.
+It is a structural design pattern that uses composition to extend the functionality of an object at runtime.
+It follows the Open/Closed Principle, allowing new functionality to be added without modifying existing code.
+
+Components
+Component Interface: 
+	Defines the methods that will be implemented by the component and its decorators.
+Component Implementation:
+	 The basic implementation of the component interface.
+Decorator: 
+	Implements the component interface and has a "has-a" relationship with the component interface.
+Concrete Decorators:
+	 Extend the base decorator functionality and modify the component behavior accordingly.
+Implementation
+
+Define the component interface and its implementation.
+
+Create an abstract decorator class that implements the component interface and has a reference to a component object.
+Create concrete decorator classes that extend the abstract decorator class and add additional responsibilities.
+In the client code, compose the component with one or more decorators to achieve the desired functionality.
+
+Advantages
+
+Allows adding or removing responsibilities from an object at runtime.
+Provides a flexible alternative to subclassing for extending functionality.
+Follows the Open/Closed Principle.
+Promotes code reuse and composition over inheritance.
+
+Disadvantages
+
+Can lead to a large number of small classes that can make the code harder to understand.
+The order of decorators can affect the final behavior of the object.
