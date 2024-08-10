@@ -1,0 +1,27 @@
+The Strategy Design Pattern is a behavioral design pattern that allows the selection of an algorithm's behavior at runtime.
+ It encapsulates a family of algorithms, making them interchangeable and enabling clients to switch between them 
+ dynamically without altering the code structure.
+ 
+  Here are detailed notes on the Strategy Design Pattern:
+ 
+Key Characteristics
+
+Encapsulation of Algorithms: 
+The pattern defines a family of algorithms, encapsulating each one in separate classes known as strategies. This allows for
+clean and modular management of different variations or implementations.
+
+Dynamic Behavior Switching:
+ 
+Clients can switch between different strategies at runtime, enabling flexible and dynamic behavior changes.
+Separation of Concerns:
+	The Strategy Pattern promotes a clean separation of concerns by isolating algorithmic logic into separate strategy classes,
+ 	improving code readability and maintainability.
+  
+Components
+
+Context: 
+	This class maintains a reference to a strategy object and delegates the execution of a behavior to it. It acts as an interface between the client and the strategy.
+Strategy Interface: 
+	Defines a common interface for all concrete strategies, allowing the context to interact with any strategy.
+Concrete Strategies:
+	Implementations of the strategy interface, each encapsulating a specific algorithm.
