@@ -8,7 +8,7 @@ The Interface Segregation Principle (ISP) :-
 4  Clients should not be forced to implement methods they do not need.
 
 		Benefits of Interface Segregation Principle
-Reduced complexity:
+Reduced complexity:-
 		 By breaking down interfaces into smaller, more focused ones, the overall complexity of the system is reduced.
 Flexibility:
 		 Clients can choose which interfaces to implement, making the system more flexible and adaptable.
