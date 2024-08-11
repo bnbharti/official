@@ -1,6 +1,6 @@
 package strategy;
 
-public class PathCalculatorFactor {
+public class PathCalculatorFactory {
 
 	public static PathCalculator getPathCalculator(Mode mode) {
 		return switch (mode) {
