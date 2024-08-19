@@ -1,17 +1,31 @@
 import pyodbc
 
 # Connection details for 'im'
-im_connection_string = ( 
+im_connection_string = (
+    "Driver={SQL Server};"
+    "Server=imga,1533;"
+    "Database=DM InvMomt QA;"
+    "UID=imropidq1;"
+    "PWD=13r0pidq1;"
 )
 
-# Connection details for ' '
-firm_connection_string = ( 
+# Connection details for 'firm'
+firm_connection_string = (
+    "Driver={SQL Server};"
+    "Server=firmdevdb;"
+    "Database=db firmdev;"
+    "UID=crptpidd1;"
+    "PWD=hqm&2&CSNw%A!e9W;"
 )
 
-# Query for ' '
-im_query =  
+# Query for 'im'
+im_query = """
+SELECT asset_id, pgim_sector 
+FROM dn_security_ts WITH (NOLOCK) 
+WHERE asof_dt = (SELECT MAX(asof_dt) FROM dn_security_ts WITH (NOLOCK) WHERE asof_dt <= '2024-07-31');
+"""
 
-# Query for ' '
+# Query for 'firm'
 firm_query = """
 SELECT cusip, pgim_sector 
 FROM fr_rpt_asset 
