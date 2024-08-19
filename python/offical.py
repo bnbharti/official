@@ -12,10 +12,7 @@ firm_connection_string = (
 im_query =  
 
 # Query for ' '
-firm_query = """
-SELECT cusip, pgim_sector 
-FROM fr_rpt_asset 
-WHERE asof_dt <= '2024-06-30';
+firm_query = """ ';
 """
 
 # Function to execute a query and fetch results
